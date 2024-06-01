@@ -9,7 +9,7 @@ Bienvenue sur mon portfolio en ligne. Je suis un data analyst passionné avec un
 **Technologies**: Python, Pandas, Matplotlib.
 
 ICI
-[Lire l'article sur le Mix Marketing Modeling]("C:\Users\sacha\Desktop\Perso\article_mmm.html")
+[Lire l'article sur le Mix Marketing Modeling](article_mmm.html)
 
 **Détails du projet**:
 - Extraction et nettoyage des données de vente.
