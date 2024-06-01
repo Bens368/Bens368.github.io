@@ -8,8 +8,7 @@ Bienvenue sur mon portfolio en ligne. Je suis un data analyst passionné avec un
 **Description**: Mix Marketing Model
 **Technologies**: Python, Pandas, Matplotlib.
 
-ICI
-[Lire l'article sur le Mix Marketing Modeling](article_mmm.html)
+<a href="article_mmm.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-align: center; text-decoration: none;">Lire l'article sur le Mix Marketing Modeling</a>
 
 **Détails du projet**:
 - Extraction et nettoyage des données de vente.
