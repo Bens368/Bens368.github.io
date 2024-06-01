@@ -7,6 +7,8 @@ Bienvenue sur mon portfolio en ligne. Je suis un data analyst passionné avec un
 ### 1. MMM
 **Description**: Mix Marketing Model
 **Technologies**: Python, Pandas, Matplotlib.
+
+ICI
 [Lire l'article sur le Mix Marketing Modeling]("C:\Users\sacha\Desktop\Perso\article_mmm.html")
 
 **Détails du projet**:
