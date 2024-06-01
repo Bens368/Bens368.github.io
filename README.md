@@ -4,9 +4,10 @@ Bienvenue sur mon portfolio en ligne. Je suis un data analyst passionné avec un
 
 ## Projets
 
-### 1. Analyse des Ventes
-**Description**: Analyse des tendances de vente pour une grande entreprise de commerce électronique.  
+### 1. MMM
+**Description**: Mix Marketing Model
 **Technologies**: Python, Pandas, Matplotlib.
+[Lire l'article sur le Mix Marketing Modeling]("C:\Users\sacha\Desktop\Perso\article_mmm.html")
 
 **Détails du projet**:
 - Extraction et nettoyage des données de vente.
