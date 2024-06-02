@@ -16,15 +16,21 @@
 - Analyse des tendances mensuelles et saisonnières.
 - Visualisation des données pour présenter les résultats aux parties prenantes.
 
-### 2. Modèle de Prédiction
-**Description**: Développement d'un modèle de prédiction des ventes basé sur l'historique des données.  
-**Technologies**: R, ggplot2, caret.
+### 2. Centralisation de données clients
+**Description**: Développement d'une Customer Data Platform (CDP) centralisant et mettant en relation toute la données marketing d'un client. Cette centralisation de données permet premierement de faciliter la lecture de données marketing, deuxiemement, de faire des analyses de résultats de campagnes plus precises en croisant la données provenant d differentes plateformes, et enfin, de créer des modeles statisitques personnalisés comme par exemple un modele d'attribution.
+
+**Technologies**: Python, JavaScript, Google Cloud, BigQuery
+
+<a href="article_mmm.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-align: center; text-decoration: none;">Lire l'article sur La Customer Data Plateforme</a>
 
 **Détails du projet**:
-- Préparation des données pour l'entraînement du modèle.
-- Sélection et évaluation de différents algorithmes de machine learning.
-- Optimisation du modèle et présentation des prédictions.
+- Évaluation de la donnée disponible et selection de la donnée pertinente au besoins clients.
+- Developpement de l'rchitecture de la base de données.
+- Requetes aux APIs et réation des tables.
+- Centralisation et hebergement dans un environement BigQuery.
+- Création de pipelines automatisés pour la lise  jour des données.
 
+  
 ### 3. Tableau de Bord Interactif
 **Description**: Création d'un tableau de bord interactif pour la visualisation des données de marketing.  
 **Technologies**: Tableau, SQL.
@@ -42,7 +48,7 @@
 
 ## Contact
 
-N'hésitez pas à me contacter via [LinkedIn](https://www.linkedin.com/) ou par [email](mailto:your-email@example.com).
+Contactez moi via [LinkedIn](www.linkedin.com/in/sacha-benadiba-2a5a0a159) ou par [email](mailto:sacha.benadiba@gmail.com).
 
 ---
 
