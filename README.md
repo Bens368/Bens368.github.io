@@ -1,6 +1,7 @@
-# Mon Portfolio de Data Analyst
-
-Bienvenue sur mon portfolio en ligne. Je suis un data analyst passionné avec une expertise en Python, R, et SQL. Voici quelques-uns de mes projets récents :
+<!-- Bandeau en haut de la page -->
+<div style="background-color: brown; padding: 20px; text-align: center;">
+    <img src="photo profile.jpg" alt="Photo de moi" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
+</div>
 
 ## Projets
 
