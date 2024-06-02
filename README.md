@@ -9,7 +9,7 @@
 **Description**: Mix Marketing Model
 **Technologies**: Python, Pandas, Matplotlib.
 
-<a href="article_mmm.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-align: center; text-decoration: none;">Lire l'article sur le Mix Marketing Modeling</a>
+<a href="article_mmm.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-align: center; text-decoration: none;">Lire mon article sur le Mix Marketing Modeling</a>
 
 **Détails du projet**:
 - Extraction et nettoyage des données de vente.
@@ -21,7 +21,7 @@
 
 **Technologies**: Python, JavaScript, Google Cloud, BigQuery
 
-<a href="article_mmm.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-align: center; text-decoration: none;">Lire l'article sur La Customer Data Plateforme</a>
+<a href="article_mmm.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-align: center; text-decoration: none;">Lire mon article sur La Customer Data Plateforme</a>
 
 **Détails du projet**:
 - Évaluation de la donnée disponible et selection de la donnée pertinente au besoins clients.
