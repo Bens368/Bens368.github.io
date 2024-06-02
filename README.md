@@ -1,5 +1,5 @@
 <!-- Bandeau en haut de la page -->
-<div style="background-color: brown; padding: 20px; text-align: center;">
+<div style="background-color: white; padding: 20px; text-align: center;">
     <img src="photo profile.jpg" alt="Photo de moi" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
 </div>
 
