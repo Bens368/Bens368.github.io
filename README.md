@@ -1,69 +1,109 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Sacha Benadiba</title>
     <style>
-        /* Cache le lien avec le texte "Sacha Ben" */
-        a[href="https://bens368.github.io/"] {
-            display: none;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-<!-- Bandeau en haut de la page -->
-<div style="background-color: white; padding: 20px; text-align: center;">
-    <img src="Sach.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
-</div>
+    <div class="content">
+        <!-- Bandeau en haut de la page -->
+        <div style="background-color: white; padding: 20px; text-align: center;">
+            <img src="Sach.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
+        </div>
 
-## Projets
+        <h1>Portfolio de Sacha Benadiba</h1>
 
-### 1. MMM
-**Description**: Mix Marketing Model
-**Technologies**: Python, Pandas, Matplotlib.
+        <h2>Projets</h2>
 
-<a href="article_mmm.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-align: center; text-decoration: none;">Lire mon article sur le Mix Marketing Modeling</a>
+        <h3>1. MMM</h3>
+        <p><strong>Description</strong>: Mix Marketing Model<br>
+        <strong>Technologies</strong>: Python, Pandas, Matplotlib</p>
 
-**Détails du projet**:
-- Extraction et nettoyage des données de vente.
-- Analyse des tendances mensuelles et saisonnières.
-- Visualisation des données pour présenter les résultats aux parties prenantes.
+        <a href="article_mmm.html" class="button">Lire mon article sur le Mix Marketing Modeling</a>
 
-### 2. Centralisation de données clients
-**Description**: Développement d'une Customer Data Platform (CDP) centralisant et mettant en relation toute la données marketing d'un client. Cette centralisation de données permet premierement de faciliter la lecture de données marketing, deuxiemement, de faire des analyses de résultats de campagnes plus precises en croisant la données provenant d differentes plateformes, et enfin, de créer des modeles statisitques personnalisés comme par exemple un modele d'attribution.
+        <p><strong>Détails du projet</strong>:</p>
+        <ul>
+            <li>Extraction et nettoyage des données de vente.</li>
+            <li>Analyse des tendances mensuelles et saisonnières.</li>
+            <li>Visualisation des données pour présenter les résultats aux parties prenantes.</li>
+        </ul>
 
-**Technologies**: Python, JavaScript, Google Cloud, BigQuery
+        <h3>2. Centralisation de données clients</h3>
+        <p><strong>Description</strong>: Développement d'une Customer Data Platform (CDP) centralisant et mettant en relation toute la donnée marketing d'un client. Cette centralisation de données permet premièrement de faciliter la lecture de données marketing, deuxièmement, de faire des analyses de résultats de campagnes plus précises en croisant les données provenant de différentes plateformes, et enfin, de créer des modèles statistiques personnalisés comme par exemple un modèle d'attribution.<br>
+        <strong>Technologies</strong>: Python, JavaScript, Google Cloud, BigQuery</p>
 
-<a href="article_mmm.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-align: center; text-decoration: none;">Lire mon article sur La Customer Data Plateforme</a>
+        <a href="article_cdp.html" class="button">Lire mon article sur la Customer Data Platform</a>
 
-**Détails du projet**:
-- Évaluation de la donnée disponible et selection de la donnée pertinente au besoins clients.
-- Developpement de l'rchitecture de la base de données.
-- Requetes aux APIs et réation des tables.
-- Centralisation et hebergement dans un environement BigQuery.
-- Création de pipelines automatisés pour la lise  jour des données.
+        <p><strong>Détails du projet</strong>:</p>
+        <ul>
+            <li>Évaluation de la donnée disponible et sélection de la donnée pertinente aux besoins clients.</li>
+            <li>Développement de l'architecture de la base de données.</li>
+            <li>Requêtes aux APIs et création des tables.</li>
+            <li>Centralisation et hébergement dans un environnement BigQuery.</li>
+            <li>Création de pipelines automatisés pour la mise à jour des données.</li>
+        </ul>
 
-  
-### 3. Tableau de Bord Interactif
-**Description**: Création d'un tableau de bord interactif pour la visualisation des données de marketing.  
-**Technologies**: Tableau, SQL.
+        <h3>3. Tableau de Bord Interactif</h3>
+        <p><strong>Description</strong>: Création d'un tableau de bord interactif pour la visualisation des données de marketing.<br>
+        <strong>Technologies</strong>: Tableau, SQL</p>
 
-**Détails du projet**:
-- Conception et développement d'un tableau de bord interactif.
-- Intégration des données de différentes sources marketing.
-- Visualisation des KPI et métriques de performance.
+        <p><strong>Détails du projet</strong>:</p>
+        <ul>
+            <li>Conception et développement d'un tableau de bord interactif.</li>
+            <li>Intégration des données de différentes sources marketing.</li>
+            <li>Visualisation des KPI et métriques de performance.</li>
+        </ul>
 
-## Compétences Techniques
-- **Langages de programmation**: Python, R, SQL
-- **Outils et technologies**: Pandas, Matplotlib, ggplot2, caret, Tableau
-- **Base de données**: MySQL, PostgreSQL
-- **Autres**: Git, GitHub, Jupyter Notebooks
+        <h2>Compétences Techniques</h2>
+        <ul>
+            <li><strong>Langages de programmation</strong>: Python, R, SQL</li>
+            <li><strong>Outils et technologies</strong>: Pandas, Matplotlib, ggplot2, caret, Tableau</li>
+            <li><strong>Bases de données</strong>: MySQL, PostgreSQL</li>
+            <li><strong>Autres</strong>: Git, GitHub, Jupyter Notebooks</li>
+        </ul>
 
-## Contact
+        <h2>Contact</h2>
+        <p>Contactez-moi via <a href="https://www.linkedin.com/in/sacha-benadiba-2a5a0a159">LinkedIn</a> ou par <a href="mailto:sacha.benadiba@gmail.com">email</a>.</p>
 
-Contactez moi via [LinkedIn](www.linkedin.com/in/sacha-benadiba-2a5a0a159) ou par [email](mailto:sacha.benadiba@gmail.com).
+        <hr>
 
----
-
-Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.
-
+        <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
+    </div>
+</body>
+</html>
