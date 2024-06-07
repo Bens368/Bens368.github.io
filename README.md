@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +15,7 @@
             background-color: #f4f4f4;
         }
         .content {
-            max-width: 1000px; /* Augmentez cette valeur pour augmenter la largeur */
+            max-width: 1500px; /* Augmentez cette valeur pour augmenter la largeur */
             margin: 20px auto;
             padding: 20px;
             background-color: white;
@@ -39,7 +38,7 @@
             padding: 10px 20px;
             font-size: 16px;
             color: white;
-            background-color: #007BFF;
+            background-color: black;
             border-radius: 5px;
             text-align: center;
             text-decoration: none;
