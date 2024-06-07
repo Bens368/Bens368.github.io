@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Sacha Benadiba</title>
+    <style>
+        /* Cache le lien avec le texte "Sacha Ben" */
+        a[href="https://bens368.github.io/"] {
+            display: none;
+        }
+    </style>
+</head>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -38,7 +49,10 @@
             text-align: center;
             text-decoration: none;
         }
+        a[href="https://bens368.github.io/"] {
+            display: none;
     </style>
+
 </head>
 <body>
     <div class="content">
@@ -47,30 +61,30 @@
             <img src="Sach.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
         </div>
 
-        <h1>Portfolio de Sacha Benadiba</h1>
+<h1>Portfolio de Sacha Benadiba</h1>
 
-        <h2>Projets</h2>
+<h2>Projets</h2>
 
-        <h3>1. MMM</h3>
+<h3>1. MMM</h3>
         <p><strong>Description</strong>: Mix Marketing Model<br>
         <strong>Technologies</strong>: Python, Pandas, Matplotlib</p>
 
-        <a href="article_mmm.html" class="button">Lire mon article sur le Mix Marketing Modeling</a>
+<a href="article_mmm.html" class="button">Lire mon article sur le Mix Marketing Modeling</a>
 
-        <p><strong>Détails du projet</strong>:</p>
+<p><strong>Détails du projet</strong>:</p>
         <ul>
             <li>Extraction et nettoyage des données de vente.</li>
             <li>Analyse des tendances mensuelles et saisonnières.</li>
             <li>Visualisation des données pour présenter les résultats aux parties prenantes.</li>
         </ul>
 
-        <h3>2. Centralisation de données clients</h3>
+<h3>2. Centralisation de données clients</h3>
         <p><strong>Description</strong>: Développement d'une Customer Data Platform (CDP) centralisant et mettant en relation toute la donnée marketing d'un client. Cette centralisation de données permet premièrement de faciliter la lecture de données marketing, deuxièmement, de faire des analyses de résultats de campagnes plus précises en croisant les données provenant de différentes plateformes, et enfin, de créer des modèles statistiques personnalisés comme par exemple un modèle d'attribution.<br>
         <strong>Technologies</strong>: Python, JavaScript, Google Cloud, BigQuery</p>
 
-        <a href="article_cdp.html" class="button">Lire mon article sur la Customer Data Platform</a>
+<a href="article_cdp.html" class="button">Lire mon article sur la Customer Data Platform</a>
 
-        <p><strong>Détails du projet</strong>:</p>
+<p><strong>Détails du projet</strong>:</p>
         <ul>
             <li>Évaluation de la donnée disponible et sélection de la donnée pertinente aux besoins clients.</li>
             <li>Développement de l'architecture de la base de données.</li>
@@ -79,18 +93,18 @@
             <li>Création de pipelines automatisés pour la mise à jour des données.</li>
         </ul>
 
-        <h3>3. Tableau de Bord Interactif</h3>
+<h3>3. Tableau de Bord Interactif</h3>
         <p><strong>Description</strong>: Création d'un tableau de bord interactif pour la visualisation des données de marketing.<br>
         <strong>Technologies</strong>: Tableau, SQL</p>
 
-        <p><strong>Détails du projet</strong>:</p>
+<p><strong>Détails du projet</strong>:</p>
         <ul>
             <li>Conception et développement d'un tableau de bord interactif.</li>
             <li>Intégration des données de différentes sources marketing.</li>
             <li>Visualisation des KPI et métriques de performance.</li>
         </ul>
 
-        <h2>Compétences Techniques</h2>
+<h2>Compétences Techniques</h2>
         <ul>
             <li><strong>Langages de programmation</strong>: Python, R, SQL</li>
             <li><strong>Outils et technologies</strong>: Pandas, Matplotlib, ggplot2, caret, Tableau</li>
@@ -98,12 +112,12 @@
             <li><strong>Autres</strong>: Git, GitHub, Jupyter Notebooks</li>
         </ul>
 
-        <h2>Contact</h2>
+<h2>Contact</h2>
         <p>Contactez-moi via <a href="https://www.linkedin.com/in/sacha-benadiba-2a5a0a159">LinkedIn</a> ou par <a href="mailto:sacha.benadiba@gmail.com">email</a>.</p>
 
-        <hr>
+<hr>
 
-        <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
+<p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
     </div>
 </body>
 </html>
