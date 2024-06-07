@@ -15,13 +15,13 @@
             background-color: #f4f4f4;
         }
         .content {
-            max-width: 1500px; /* Augmentez cette valeur pour augmenter la largeur */
+            max-width: 2500px; /* Augmentez cette valeur pour augmenter la largeur */
             margin: 20px auto;
             padding: 20px;
             background-color: white;
             /* Retirer l'effet de relief */
             box-shadow: none;
-            border: 1px solid #ccc; /* Optionnel : ajouter une bordure pour délimiter la zone */
+            border: 2px solid #ccc; /* Optionnel : ajouter une bordure pour délimiter la zone */
         }
         h1, h2, h3 {
             color: #333;
