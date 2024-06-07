@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -8,14 +9,6 @@
         a[href="https://bens368.github.io/"] {
             display: none;
         }
-    </style>
-</head>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Sacha Benadiba</title>
-    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -23,11 +16,13 @@
             background-color: #f4f4f4;
         }
         .content {
-            max-width: 800px;
+            max-width: 1000px; /* Augmentez cette valeur pour augmenter la largeur */
             margin: 20px auto;
             padding: 20px;
             background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Retirer l'effet de relief */
+            box-shadow: none;
+            border: 1px solid #ccc; /* Optionnel : ajouter une bordure pour délimiter la zone */
         }
         h1, h2, h3 {
             color: #333;
@@ -49,10 +44,7 @@
             text-align: center;
             text-decoration: none;
         }
-        a[href="https://bens368.github.io/"] {
-            display: none;
     </style>
-
 </head>
 <body>
     <div class="content">
@@ -104,7 +96,7 @@
             <li>Visualisation des KPI et métriques de performance.</li>
         </ul>
 
-<h2>Compétences Techniques</h2>
+ <h2>Compétences Techniques</h2>
         <ul>
             <li><strong>Langages de programmation</strong>: Python, R, SQL</li>
             <li><strong>Outils et technologies</strong>: Pandas, Matplotlib, ggplot2, caret, Tableau</li>
@@ -112,12 +104,10 @@
             <li><strong>Autres</strong>: Git, GitHub, Jupyter Notebooks</li>
         </ul>
 
-<h2>Contact</h2>
+   <h2>Contact</h2>
         <p>Contactez-moi via <a href="https://www.linkedin.com/in/sacha-benadiba-2a5a0a159">LinkedIn</a> ou par <a href="mailto:sacha.benadiba@gmail.com">email</a>.</p>
-
-<hr>
-
-<p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
+    <hr>
+    <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
     </div>
 </body>
 </html>
