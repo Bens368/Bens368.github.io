@@ -21,27 +21,26 @@
             background-color: white;
             /* Retirer l'effet de relief */
             box-shadow: none;
-            border: 2px solid #ccc; /* Optionnel : ajouter une bordure pour délimiter la zone */
+            border: 3px solid black; /* Optionnel : ajouter une bordure pour délimiter la zone */
         }
         h1, h2, h3 {
-            color: #333;
+                   color: #333;
         }
         a {
             color: #007BFF;
             text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
         .button {
             display: inline-block;
             padding: 10px 20px;
             font-size: 16px;
-            color: white;
-            background-color: black;
+            color: white; /* Texte en blanc */
+            background-color: black; /* Fond noir */
             border-radius: 5px;
             text-align: center;
             text-decoration: none;
+        }
+        .button:hover {
+            background-color: #333; /* Couleur de fond en survol plus claire */
         }
     </style>
 </head>
