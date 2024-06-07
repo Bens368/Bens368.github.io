@@ -23,12 +23,16 @@
             box-shadow: none;
             border: 3px solid black; /* Optionnel : ajouter une bordure pour délimiter la zone */
         }
-        h1, h2, h3 {
-                   color: #333;
+       h1, h2, h3 {
+            color: #333;
         }
         a {
             color: #007BFF;
             text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
         .button {
             display: inline-block;
             padding: 10px 20px;
