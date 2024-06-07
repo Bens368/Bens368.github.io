@@ -1,5 +1,16 @@
-<a href="https://bens368.github.io/">n</a>
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Sacha Benadiba</title>
+    <style>
+        .vcard-names-container, .vcard-fullname {
+            display: none;
+        }
+    </style>
+</head>
+<body>
 <!-- Bandeau en haut de la page -->
 <div style="background-color: white; padding: 20px; text-align: center;">
     <img src="Sach.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
