@@ -123,8 +123,8 @@
         <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
     </div>
     <!-- Bouton pour revenir à la page précédente -->
-    <a href="[page_d_accueil.html](https://bens368.github.io/)" class="back-button" title="Retour à la page d'accueil">
-        <div class="back-button-icon">&#8592;</div>
-    </a>
+<a href="[index.html](https://bens368.github.io/)" class="back-button" title="Retour à la page d'accueil">
+    <div class="back-button-icon">&#8592;</div>
+</a>
 </body>
 </html>
