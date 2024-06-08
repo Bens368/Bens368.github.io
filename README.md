@@ -1,7 +1,6 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Sacha Benadiba</title>
     <style>
         /* Cache le lien avec le texte "Sacha Ben" */
@@ -23,8 +22,11 @@
             box-shadow: none;
             border: 3px solid black; /* Optionnel : ajouter une bordure pour délimiter la zone */
         }
-       h1, h2, h3 {
+        h1, h2, h3 {
             color: #333;
+        }
+        h1 {
+            text-align: center; /* Centrer le titre */
         }
         a {
             color: #007BFF;
