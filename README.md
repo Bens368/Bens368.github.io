@@ -27,13 +27,14 @@
         }
         h1 {
             text-align: center; /* Centrer le titre */
+            margin-bottom: 0; /* Supprimer la marge inférieure */
         }
         .subtitle {
             font-size: 20px; /* Taille de la police légèrement plus petite */
             font-style: italic; /* Texte en italique */
             text-align: center; /* Centrer le texte */
             color: #666; /* Couleur grise pour le sous-titre */
-            margin-top: -10px; /* Ajuster la marge pour rapprocher du titre principal */
+            margin-top: -50px; /* Ajuster la marge pour rapprocher du titre principal */
         }
         a {
             color: #007BFF;
