@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -16,8 +17,8 @@
         }
         .content {
             max-width: 2500px; /* Augmentez cette valeur pour augmenter la largeur */
-            margin: 0px auto;
-            padding: 20px;
+            margin: 1px;
+            padding: 1px;
             background-color: white;
             /* Retirer l'effet de relief */
             box-shadow: none;
@@ -122,9 +123,8 @@
         <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
     </div>
     <!-- Bouton pour revenir à la page précédente -->
-    <a href="fleche-gauche.png" class="back-button" title="Retour à la page d'accueil">
-    <div> Icônes conçues par <a href="https://www.flaticon.com/fr/auteurs/smashicons" title="Smashicons"> Smashicons </a>       from <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com'</a></div>
- <div class="back-button-icon">&#8592;</div>
+    <a href="[page_d_accueil.html](https://bens368.github.io/)" class="back-button" title="Retour à la page d'accueil">
+        <div class="back-button-icon">&#8592;</div>
     </a>
 </body>
 </html>
