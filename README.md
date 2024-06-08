@@ -23,7 +23,7 @@
             border: 3px solid black; /* Optionnel : ajouter une bordure pour délimiter la zone */
         }
         h1, h2, h3 {
-            color: #333;
+            color: white;
         }
         h1 {
             text-align: center; /* Centrer le titre */
@@ -34,7 +34,7 @@
             font-style: italic; /* Texte en italique */
             text-align: center; /* Centrer le texte */
             color: #666; /* Couleur grise pour le sous-titre */
-            margin-top: -50px; /* Ajuster la marge pour rapprocher du titre principal */
+            margin-top: -90px; /* Ajuster la marge pour rapprocher du titre principal */
         }
         a {
             color: #007BFF;
