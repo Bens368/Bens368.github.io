@@ -52,7 +52,7 @@
     <div class="content">
         <!-- Bandeau en haut de la page -->
         <div style="background-color: white; padding: 20px; text-align: center;">
-            <img src="Sach.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
+            <img src="Sach_orange.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
         </div>
 
 <h1>Portfolio de Sacha Benadiba</h1>
