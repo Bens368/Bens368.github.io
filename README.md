@@ -16,14 +16,14 @@
         }
         .content {
             max-width: 2500px; /* Augmentez cette valeur pour augmenter la largeur */
-            margin: 20px auto;
+            margin: 0px auto;
             padding: 20px;
             background-color: white;
             /* Retirer l'effet de relief */
             box-shadow: none;
             border: 3px solid black; /* Optionnel : ajouter une bordure pour délimiter la zone */
         }
-       h1, h2, h3 {
+        h1, h2, h3 {
             color: #333;
         }
         a {
@@ -46,6 +46,28 @@
         .button:hover {
             background-color: #333; /* Couleur de fond en survol plus claire */
         }
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #333;
+        }
+        .back-button-icon {
+            font-size: 24px;
+        }
     </style>
 </head>
 <body>
@@ -54,31 +76,23 @@
         <div style="background-color: white; padding: 20px; text-align: center;">
             <img src="Sach_orange.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
         </div>
-
-<h1>Portfolio de Sacha Benadiba</h1>
-
-<h2>Projets</h2>
-
-<h3>1. MMM</h3>
+        <h1>Portfolio de Sacha Benadiba</h1>
+        <h2>Projets</h2>
+        <h3>1. MMM</h3>
         <p><strong>Description</strong>: Mix Marketing Model<br>
         <strong>Technologies</strong>: Python, Pandas, Matplotlib</p>
-
-<a href="article_mmm.html" class="button">Lire mon article sur le Mix Marketing Modeling</a>
-
-<p><strong>Détails du projet</strong>:</p>
+        <a href="article_mmm.html" class="button">Lire mon article sur le Mix Marketing Modeling</a>
+        <p><strong>Détails du projet</strong>:</p>
         <ul>
             <li>Extraction et nettoyage des données de vente.</li>
             <li>Analyse des tendances mensuelles et saisonnières.</li>
             <li>Visualisation des données pour présenter les résultats aux parties prenantes.</li>
         </ul>
-
-<h3>2. Centralisation de données clients</h3>
+        <h3>2. Centralisation de données clients</h3>
         <p><strong>Description</strong>: Développement d'une Customer Data Platform (CDP) centralisant et mettant en relation toute la donnée marketing d'un client. Cette centralisation de données permet premièrement de faciliter la lecture de données marketing, deuxièmement, de faire des analyses de résultats de campagnes plus précises en croisant les données provenant de différentes plateformes, et enfin, de créer des modèles statistiques personnalisés comme par exemple un modèle d'attribution.<br>
         <strong>Technologies</strong>: Python, JavaScript, Google Cloud, BigQuery</p>
-
-<a href="article_cdp.html" class="button">Lire mon article sur la Customer Data Platform</a>
-
-<p><strong>Détails du projet</strong>:</p>
+        <a href="article_cdp.html" class="button">Lire mon article sur la Customer Data Platform</a>
+        <p><strong>Détails du projet</strong>:</p>
         <ul>
             <li>Évaluation de la donnée disponible et sélection de la donnée pertinente aux besoins clients.</li>
             <li>Développement de l'architecture de la base de données.</li>
@@ -86,30 +100,30 @@
             <li>Centralisation et hébergement dans un environnement BigQuery.</li>
             <li>Création de pipelines automatisés pour la mise à jour des données.</li>
         </ul>
-
-<h3>3. Tableau de Bord Interactif</h3>
+        <h3>3. Tableau de Bord Interactif</h3>
         <p><strong>Description</strong>: Création d'un tableau de bord interactif pour la visualisation des données de marketing.<br>
         <strong>Technologies</strong>: Tableau, SQL</p>
-
-<p><strong>Détails du projet</strong>:</p>
+        <p><strong>Détails du projet</strong>:</p>
         <ul>
             <li>Conception et développement d'un tableau de bord interactif.</li>
             <li>Intégration des données de différentes sources marketing.</li>
             <li>Visualisation des KPI et métriques de performance.</li>
         </ul>
-
- <h2>Compétences Techniques</h2>
+        <h2>Compétences Techniques</h2>
         <ul>
             <li><strong>Langages de programmation</strong>: Python, R, SQL</li>
             <li><strong>Outils et technologies</strong>: Pandas, Matplotlib, ggplot2, caret, Tableau</li>
             <li><strong>Bases de données</strong>: MySQL, PostgreSQL</li>
             <li><strong>Autres</strong>: Git, GitHub, Jupyter Notebooks</li>
         </ul>
-
-   <h2>Contact</h2>
+        <h2>Contact</h2>
         <p>Contactez-moi via <a href="https://www.linkedin.com/in/sacha-benadiba-2a5a0a159">LinkedIn</a> ou par <a href="mailto:sacha.benadiba@gmail.com">email</a>.</p>
-    <hr>
-    <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
+        <hr>
+        <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
     </div>
+    <!-- Bouton pour revenir à la page précédente -->
+    <a href="index.html" class="back-button" title="Retour à la page d'accueil">
+        <div class="back-button-icon">&#8592;</div>
+    </a>
 </body>
 </html>
