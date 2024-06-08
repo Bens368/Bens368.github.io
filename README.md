@@ -122,13 +122,9 @@
         <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
     </div>
     <!-- Bouton pour revenir à la page précédente -->
-    <a href="index.html" class="back-button" title="Retour à la page d'accueil">
-
-<div> Icônes conçues par <a href="https://www.flaticon.com/fr/auteurs/smashicons" title="Smashicons"> Smashicons </a> from <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com'</a></div>
-
-
-        
-        <div class="back-button-icon">&#8592;</div>
+    <a href="fleche-gauche.png" class="back-button" title="Retour à la page d'accueil">
+    <div> Icônes conçues par <a href="https://www.flaticon.com/fr/auteurs/smashicons" title="Smashicons"> Smashicons </a>       from <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com'</a></div>
+ <div class="back-button-icon">&#8592;</div>
     </a>
 </body>
 </html>
