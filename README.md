@@ -28,6 +28,13 @@
         h1 {
             text-align: center; /* Centrer le titre */
         }
+        .subtitle {
+            font-size: 20px; /* Taille de la police légèrement plus petite */
+            font-style: italic; /* Texte en italique */
+            text-align: center; /* Centrer le texte */
+            color: #666; /* Couleur grise pour le sous-titre */
+            margin-top: -10px; /* Ajuster la marge pour rapprocher du titre principal */
+        }
         a {
             color: #007BFF;
             text-decoration: none;
@@ -57,7 +64,8 @@
             <img src="Sach_orange.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
         </div>
 
-<h1>Portfolio de Sacha Benadiba</h1>
+<h1>Sacha Benadiba</h1>
+<p class="subtitle">Data scientist</p>
 
 <h2>Projets</h2>
 
