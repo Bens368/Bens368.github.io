@@ -1,128 +1,173 @@
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio de Sacha Benadiba</title>
-    <style>
-        /* Cache le lien avec le texte "Sacha Ben" */
-        a[href="https://bens368.github.io/"] {
-            display: none;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .content {
-            max-width: 2500px; /* Augmentez cette valeur pour augmenter la largeur */
-            margin: 50px auto;
-            padding: 50px;
-            background-color: white;
-            /* Retirer l'effet de relief */
-            box-shadow: none;
-            border: 3px solid black; /* Optionnel : ajouter une bordure pour délimiter la zone */
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        h1 {
-            text-align: center; /* Centrer le titre */
-            margin-bottom: 0; /* Supprimer la marge inférieure */
-        }
-        .subtitle {
-            font-size: 20px; /* Taille de la police légèrement plus petite */
-            font-style: italic; /* Texte en italique */
-            text-align: center; /* Centrer le texte */
-            color: #666; /* Couleur grise pour le sous-titre */
-            margin-top: -10px; /* Ajuster la marge pour rapprocher du titre principal */
-        }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: none;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            color: white; /* Texte en blanc */
-            background-color: black; /* Fond noir */
-            border-radius: 5px;
-            text-align: center;
-            text-decoration: none;
-        }
-        .button:hover {
-            background-color: #333; /* Couleur de fond en survol plus claire */
-        }
-    </style>
-</head>
-<body>
-    <div class="content">
-        <!-- Bandeau en haut de la page -->
-        <div style="background-color: white; padding: 20px; text-align: center;">
-            <img src="Sach_orange.png" alt="Photo de Sacha Benadiba" style="border-radius: 50%; width: 150px; height: 150px; margin: auto; display: block;">
-        </div>
-
-<h1>Sacha Benadiba</h1>
-<p class="subtitle">Data scientist</p>
-
-<h2>Projets</h2>
-
-<h3>1. MMM</h3>
-        <p><strong>Description</strong>: Mix Marketing Model<br>
-        <strong>Technologies</strong>: Python, Pandas, Matplotlib</p>
-
-<a href="article_mmm.html" class="button">Lire mon article sur le Mix Marketing Modeling</a>
-
-<p><strong>Détails du projet</strong>:</p>
-        <ul>
-            <li>Extraction et nettoyage des données de vente.</li>
-            <li>Analyse des tendances mensuelles et saisonnières.</li>
-            <li>Visualisation des données pour présenter les résultats aux parties prenantes.</li>
-        </ul>
-
-<h3>2. Centralisation de données clients</h3>
-        <p><strong>Description</strong>: Développement d'une Customer Data Platform (CDP) centralisant et mettant en relation toute la donnée marketing d'un client. Cette centralisation de données permet premièrement de faciliter la lecture de données marketing, deuxièmement, de faire des analyses de résultats de campagnes plus précises en croisant les données provenant de différentes plateformes, et enfin, de créer des modèles statistiques personnalisés comme par exemple un modèle d'attribution.<br>
-        <strong>Technologies</strong>: Python, JavaScript, Google Cloud, BigQuery</p>
-
-<a href="article_cdp.html" class="button">Lire mon article sur la Customer Data Platform</a>
-
-<p><strong>Détails du projet</strong>:</p>
-        <ul>
-            <li>Évaluation de la donnée disponible et sélection de la donnée pertinente aux besoins clients.</li>
-            <li>Développement de l'architecture de la base de données.</li>
-            <li>Requêtes aux APIs et création des tables.</li>
-            <li>Centralisation et hébergement dans un environnement BigQuery.</li>
-            <li>Création de pipelines automatisés pour la mise à jour des données.</li>
-        </ul>
-
-<h3>3. Tableau de Bord Interactif</h3>
-        <p><strong>Description</strong>: Création d'un tableau de bord interactif pour la visualisation des données de marketing.<br>
-        <strong>Technologies</strong>: Tableau, SQL</p>
-
-<p><strong>Détails du projet</strong>:</p>
-        <ul>
-            <li>Conception et développement d'un tableau de bord interactif.</li>
-            <li>Intégration des données de différentes sources marketing.</li>
-            <li>Visualisation des KPI et métriques de performance.</li>
-        </ul>
-
- <h2>Compétences Techniques</h2>
-        <ul>
-            <li><strong>Langages de programmation</strong>: Python, R, SQL</li>
-            <li><strong>Outils et technologies</strong>: Pandas, Matplotlib, ggplot2, caret, Tableau</li>
-            <li><strong>Bases de données</strong>: MySQL, PostgreSQL</li>
-            <li><strong>Autres</strong>: Git, GitHub, Jupyter Notebooks</li>
-        </ul>
-
-   <h2>Contact</h2>
-        <p>Contactez-moi via <a href="https://www.linkedin.com/in/sacha-benadiba-2a5a0a159">LinkedIn</a> ou par <a href="mailto:sacha.benadiba@gmail.com">email</a>.</p>
-    <hr>
-    <p>Merci de visiter mon portfolio. Si vous avez des questions ou souhaitez discuter de collaborations potentielles, n'hésitez pas à me contacter.</p>
-    </div>
-</body>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Prologue by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<div id="header">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Jane Doe</h1>
+							<p>Hyperspace Engineer</p>
+						</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+				</div>
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+				</div>
+			</div>
+		<!-- Main -->
+			<div id="main">
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
+								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
+								<p>Ligula scelerisque justo sem accumsan diam quis<br />
+								vitae natoque dictum sollicitudin elementum.</p>
+							</header>
+							<footer>
+								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+							</footer>
+						</div>
+					</section>
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<header>
+											<h3>Ipsum Feugiat</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<header>
+											<h3>Rhoncus Semper</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Magna Nullam</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<header>
+											<h3>Natoque Vitae</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Dolor Penatibus</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<header>
+											<h3>Orci Convallis</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+							<header>
+								<h2>About Me</h2>
+							</header>
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+						</div>
+					</section>
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+							<header>
+								<h2>Contact</h2>
+							</header>
+							<p>Elementum sem parturient nulla quam placerat viverra
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+			</div>
+		<!-- Footer -->
+			<div id="footer">
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
 </html>
-
-
